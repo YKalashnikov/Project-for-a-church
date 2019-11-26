@@ -8,11 +8,13 @@ body {
   font-weight: 300;
   color: rgb(6, 6, 75);
   background-color: #fff;
+
 }
 
 html {
   width: 100%;
   height: 100%;
+
 }
 
 h1,
@@ -124,6 +126,7 @@ a:focus {
 
 .navbar-custom.top-nav-collapse ul.nav ul.dropdown-menu li a {
   color: #666;
+  
 }
 
 .navbar-custom .nav li a {
@@ -327,7 +330,7 @@ hr {
 .intro .slogan h2 {
   color: #fff;
   text-shadow: none;
-  font-size: 55px;
+  font-size: 45px;
   line-height: 60px;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
@@ -355,6 +358,7 @@ hr {
   background: rgb(244, 244, 245);
   padding: 20px;
   border-radius: 10px;
+
 }
 
 .team h5 {
@@ -765,7 +769,7 @@ Parallax
   }
 
   .navbar-custom.top-nav-collapse {
-    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+     background-color: #4285F4;
   }
 
   .intro {
@@ -793,7 +797,7 @@ Parallax
 
 @media (max-width: 480px) {
   .navbar-custom .nav.navbar-nav {
-    background-color: rgba(255, 255, 255, 0.4);
+    background-color: #4285F4;
   }
 
   .navbar.navbar-custom.navbar-fixed-top {
