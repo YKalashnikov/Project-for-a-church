@@ -327,7 +327,7 @@ hr {
 .intro .slogan h2 {
   color: #fff;
   text-shadow: none;
-  font-size: 70px;
+  font-size: 55px;
   line-height: 60px;
   font-weight: 700;
   font-family: Montserrat, sans-serif;
@@ -355,7 +355,6 @@ hr {
   background: rgb(244, 244, 245);
   padding: 20px;
   border-radius: 10px;
-  height:120px;
 }
 
 .team h5 {
@@ -806,11 +805,11 @@ Parallax
   }
 
   .page-scroll a.btn-circle {
+    margin:10px;
     width: 40px;
     height: 40px;
     margin-top: 10px;
     padding: 7px 0;
-    border: 2px solid #fff;
     border-radius: 50%;
     font-size: 20px;
   }
