@@ -1,4 +1,4 @@
-const staticData= "russian-independent-church"
+const staticData= "Slavic-independent-church"
 const assets = [
   "/",
   "/index.html",
