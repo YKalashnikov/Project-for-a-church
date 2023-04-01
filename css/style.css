@@ -414,8 +414,14 @@ hr {
   border-radius: 10px;
   box-shadow: 0 0.27778rem 0.27778rem 0 rgba(0, 0, 0, .2);
   min-height: 200px;
-
+  display: flex;
 }
+
+.team.boxed-grey img {
+  width: 30%;
+  object-fit: contain;
+}
+
 .second-row {
   display: flex;
   justify-content: center;
@@ -913,8 +919,12 @@ Parallax
 @media (max-width: 768px) {
   .team.boxed-grey {
     margin-bottom: 30px;
+    flex-direction: column;
+    align-items: center;
   }
-
+  .boxed-grey img{
+    padding-bottom: 15px;
+  }
   .boxed-grey {
     margin-bottom: 30px;
   }
