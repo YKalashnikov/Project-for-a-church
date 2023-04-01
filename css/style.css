@@ -420,6 +420,7 @@ hr {
 .team.boxed-grey img {
   width: 30%;
   object-fit: contain;
+  padding: 10px;
 }
 
 .second-row {
